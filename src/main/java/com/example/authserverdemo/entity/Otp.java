@@ -9,9 +9,8 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
-public class User {
-
+public class Otp {
     @Id
     private String username;
-    private String password;
+    private String code;
 }
